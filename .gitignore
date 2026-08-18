@@ -1,0 +1,47 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Airflow
+airflow/logs/*
+!airflow/logs/.gitkeep
+
+# Data files
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt_packages/
+
+# Power BI
+*.pbix
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python distribution
+dist/
+build/
+*.egg-info/
