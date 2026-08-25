@@ -1,0 +1,18 @@
+project:
+  name: retail-sales-lakehouse
+  environment: local
+
+data:
+  raw_path: data/raw
+  bronze_path: data/bronze 
+
+dataset:
+  filename: superstore.csv
+  source_name: superstore
+
+bronze:
+  partition_column: order_year
+
+logging:
+  level: INFO
+  log_directory: logs

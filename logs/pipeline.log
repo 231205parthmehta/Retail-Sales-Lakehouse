@@ -1,0 +1,12 @@
+2026-08-25 12:28:48,799 | INFO | __main__ | Starting Superstore Bronze ingestion.
+2026-08-25 12:28:48,799 | INFO | __main__ | Reading source file: C:\Projects\Current\retail-sales-lakehouse\data\raw\superstore.xls
+2026-08-25 12:30:29,555 | INFO | __main__ | Starting Superstore Bronze ingestion.
+2026-08-25 12:30:29,555 | INFO | __main__ | Reading source file: C:\Projects\Current\retail-sales-lakehouse\data\raw\superstore.csv
+2026-08-25 12:30:29,627 | INFO | __main__ | Successfully loaded 10194 rows and 21 columns.
+2026-08-25 12:30:29,628 | INFO | __main__ | Dataset columns: ['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode', 'Customer ID', 'Customer Name', 'Segment', 'Country/Region', 'City', 'State/Province', 'Postal Code', 'Region', 'Product ID', 'Category', 'Sub-Category', 'Product Name', 'Sales', 'Quantity', 'Discount', 'Profit']
+2026-08-25 12:30:29,652 | INFO | __main__ | Duplicate rows: 0
+2026-08-25 12:30:29,652 | INFO | __main__ | No missing values detected.
+2026-08-25 12:30:29,954 | INFO | __main__ | Rows with invalid Order Date values: 0
+2026-08-25 12:30:29,956 | INFO | __main__ | Writing Bronze data to: C:\Projects\Current\retail-sales-lakehouse\data\bronze\orders
+2026-08-25 12:30:30,586 | INFO | __main__ | Bronze data written successfully.
+2026-08-25 12:30:30,586 | INFO | __main__ | Bronze ingestion completed successfully.
