@@ -10,3 +10,16 @@
 2026-08-25 12:30:29,956 | INFO | __main__ | Writing Bronze data to: C:\Projects\Current\retail-sales-lakehouse\data\bronze\orders
 2026-08-25 12:30:30,586 | INFO | __main__ | Bronze data written successfully.
 2026-08-25 12:30:30,586 | INFO | __main__ | Bronze ingestion completed successfully.
+2026-09-03 11:26:10,042 | INFO | __main__ | Loading Bronze data from C:\Projects\Current\retail-sales-lakehouse\data\bronze\orders
+2026-09-03 11:26:10,760 | INFO | __main__ | Great Expectations context initialized.
+2026-09-03 11:26:10,773 | INFO | __main__ | Created expectation suite: bronze_orders_quality
+2026-09-03 11:26:10,892 | INFO | __main__ | Expectation suite contains 10 expectations.
+2026-09-03 11:26:10,926 | INFO | __main__ | GX batch definition ready.
+2026-09-03 11:26:10,942 | INFO | __main__ | Running Bronze data quality validation.
+2026-09-03 11:26:11,256 | INFO | __main__ | Validation completed.
+2026-09-03 11:26:11,257 | INFO | __main__ | Bronze data quality validation PASSED.
+2026-09-03 11:30:30,944 | INFO | __main__ | Reading Bronze data from C:\Projects\Current\retail-sales-lakehouse\data\bronze\orders
+2026-09-03 11:30:31,010 | INFO | __main__ | Bronze rows before transformation: 10194
+2026-09-03 11:30:31,496 | INFO | __main__ | Removed 0 exact duplicate rows.
+2026-09-03 11:30:31,570 | INFO | __main__ | Silver data written to C:\Projects\Current\retail-sales-lakehouse\data\silvers\orders
+2026-09-03 11:30:31,570 | INFO | __main__ | Silver transformation completed successfully.

@@ -1,0 +1,108 @@
+{
+  "expectations": [
+    {
+      "id": "e03b1dcd-ed0e-439a-b186-f735e0b5065e",
+      "kwargs": {
+        "column": "Order ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "86abf9d8-326f-46e4-a51c-344aa2884294",
+      "kwargs": {
+        "column": "Order Date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "e87ba495-8819-4ffc-a85c-d4dcf0dce7ed",
+      "kwargs": {
+        "column": "Ship Date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "990b1acf-8579-454b-913a-79f5ee4ba0bc",
+      "kwargs": {
+        "column": "Sales"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "537f5315-00af-4672-8997-b1a6a3af5875",
+      "kwargs": {
+        "column": "Profit"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "6c047db1-ba51-4c2e-89d3-5f5bd46cc312",
+      "kwargs": {
+        "column": "Quantity",
+        "min_value": 1.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "66354e3b-addb-48d0-bb22-7912e1105aec",
+      "kwargs": {
+        "column": "Discount",
+        "max_value": 1.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "e00b4d43-8477-41ba-97cb-ae01821354ea",
+      "kwargs": {
+        "column": "Customer ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "715cf698-e3a4-425d-a49e-3a8eddf45672",
+      "kwargs": {
+        "column": "Product ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "e6d6ca2e-e5bb-4a17-bbe3-593b91ebaba7",
+      "kwargs": {
+        "column": "Category",
+        "value_set": [
+          "Furniture",
+          "Office Supplies",
+          "Technology"
+        ]
+      },
+      "meta": {},
+      "severity": "warning",
+      "type": "expect_column_values_to_be_in_set"
+    }
+  ],
+  "id": "4dd1ddcb-e027-405d-9b20-3af7010a0a92",
+  "meta": {
+    "great_expectations_version": "1.19.1"
+  },
+  "name": "bronze_orders_quality",
+  "notes": null
+}
